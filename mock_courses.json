@@ -1,0 +1,38 @@
+[
+    {
+        "id": "C001",
+        "title": "Lập trình Java căn bản",
+        "category": "Backend",
+        "subcategory": "Java",
+        "target_skill": "Java",
+        "level": 1,
+        "description": "Khóa học dành cho người mới bắt đầu làm quen với cú pháp Java và lập trình hướng đối tượng (OOP)."
+    },
+    {
+        "id": "C002",
+        "title": "Lập trình Spring Boot nâng cao",
+        "category": "Backend",
+        "subcategory": "Java",
+        "target_skill": "Java",
+        "level": 3,
+        "description": "Khóa học đi sâu vào Spring Boot, Microservices và bảo mật API cho Senior Developer."
+    },
+    {
+        "id": "C003",
+        "title": "Nhập môn Python và Cấu trúc dữ liệu",
+        "category": "Backend",
+        "subcategory": "Python",
+        "target_skill": "Python",
+        "level": 1,
+        "description": "Nắm vững cú pháp Python, List, Dictionary và cách đọc ghi file."
+    },
+    {
+        "id": "C004",
+        "title": "Triển khai dự án với Docker",
+        "category": "DevOps",
+        "subcategory": "Containerization",
+        "target_skill": "Docker",
+        "level": 2,
+        "description": "Học cách đóng gói ứng dụng web vào container với Docker."
+    }
+]
