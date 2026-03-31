@@ -76,3 +76,19 @@ if __name__ == "__main__":
         print (f"ky nang:{course['target_skill']}")
         print (f"cap do:{course['level']}")
 """
+"""
+    print ("Truy xuất toàn bộ khóa học:\n")
+    for index,course in enumerate (courses):
+        print (f"khoa hoc thu {index+1}")
+        print (f"ten khoa:{course['title']}")
+        print (f"ky nang:{course['target_skill']}")
+        print (f"cap do:{course['level']}")
+"""
+"""
+    print ("Truy xuất toàn bộ khóa học:\n")
+    for index,course in enumerate (courses):
+        print (f"khoa hoc thu {index+1}")
+        print (f"ten khoa:{course['title']}")
+        print (f"ky nang:{course['target_skill']}")
+        print (f"cap do:{course['level']}")
+"""
