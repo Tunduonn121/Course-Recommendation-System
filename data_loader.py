@@ -91,4 +91,5 @@ if __name__ == "__main__":
         print (f"ten khoa:{course['title']}")
         print (f"ky nang:{course['target_skill']}")
         print (f"cap do:{course['level']}")
+        
 """
