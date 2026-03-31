@@ -18,6 +18,31 @@ def load_mock_courses(file_path):
         print("Lỗi: File JSON bị sai định dạng!")
         return []
 
+def build_course_tree(flat_courses_list):
+    """
+    Hàm này nhận vào một danh sách phẳng các khóa học
+    và gom nhóm chúng lại thành cấu trúc Cây (Dictionary lồng nhau).
+    """
+    course_tree = {} # Khởi tạo Cây rỗng (Root Node)
+
+    for course in flat_courses_list:
+        # Lấy thông tin danh mục của khóa học hiện tại
+        cat = course['category']       # Ví dụ: "Backend", "DevOps"
+        subcat = course['subcategory'] # Ví dụ: "Java", "Python"
+
+        # 1. Nếu Danh mục lớn (Category) chưa có trong Cây -> Tạo mới
+        if cat not in course_tree:
+            course_tree[cat] = {}
+
+        # 2. Nếu Danh mục con (Subcategory) chưa có trong Danh mục lớn -> Tạo mới dạng List (Nút Lá)
+        if subcat not in course_tree[cat]:
+            course_tree[cat][subcat] = []
+
+        # 3. Thêm khóa học vào đúng vị trí Nút Lá (Leaf Node)
+        course_tree[cat][subcat].append(course)
+
+    return course_tree
+
 # --- Phần này chỉ để test xem hàm có chạy đúng không ---
 if __name__ == "__main__":
     # Tên file JSON bạn vừa tạo
@@ -26,11 +51,28 @@ if __name__ == "__main__":
     # Gọi hàm để đọc
     courses = load_mock_courses(my_file)
     
-    # In thử ra màn hình xem có lấy được dữ liệu không
-    print(f"Đã tải thành công {len(courses)} khóa học!\n")
-    
-    # In thử tên và kỹ năng của khóa học đầu tiên (Index 0)
-    print("Thông tin khóa học đầu tiên:")
-    print(f"- Tên khóa: {courses[0]['title']}")
-    print(f"- Kỹ năng dạy: {courses[0]['target_skill']}")
-    print(f"- Cấp độ (Level): {courses[0]['level']}")
+"""
+    print ("Truy xuất toàn bộ khóa học:\n")
+    for index,course in enumerate (courses):
+        print (f"khoa hoc thu {index+1}")
+        print (f"ten khoa:{course['title']}")
+        print (f"ky nang:{course['target_skill']}")
+        print (f"cap do:{course['level']}")
+"""
+
+"""
+    print ("Truy xuất toàn bộ khóa học:\n")
+    for index,course in enumerate (courses):
+        print (f"khoa hoc thu {index+1}")
+        print (f"ten khoa:{course['title']}")
+        print (f"ky nang:{course['target_skill']}")
+        print (f"cap do:{course['level']}")
+"""
+"""
+    print ("Truy xuất toàn bộ khóa học:\n")
+    for index,course in enumerate (courses):
+        print (f"khoa hoc thu {index+1}")
+        print (f"ten khoa:{course['title']}")
+        print (f"ky nang:{course['target_skill']}")
+        print (f"cap do:{course['level']}")
+"""
