@@ -44,47 +44,22 @@ def build_course_tree(flat_courses_list):
     return course_tree
 
 # --- Phần này chỉ để test xem hàm có chạy đúng không ---
+
 if __name__ == "__main__":
     # Tên file JSON bạn vừa tạo
     my_file = "mock_courses.json"
-    
+    courses_flat_list = load_mock_courses(my_file)
+
+    if courses_flat_list:
+        # Gọi hàm xây dựng cây (Thụt lề đúng 1 Tab / 4 dấu cách)
+        my_tree = build_course_tree(courses_flat_list)
+        
+        # In ra cấu trúc cây thật đẹp bằng thư viện json
+        print("\n--- CẤU TRÚC CÂY KHÓA HỌC (COURSE TREE) ---")
+        print(json.dumps(my_tree, indent=4, ensure_ascii=False))
+"""
     # Gọi hàm để đọc
     courses = load_mock_courses(my_file)
-    
-"""
-    print ("Truy xuất toàn bộ khóa học:\n")
-    for index,course in enumerate (courses):
-        print (f"khoa hoc thu {index+1}")
-        print (f"ten khoa:{course['title']}")
-        print (f"ky nang:{course['target_skill']}")
-        print (f"cap do:{course['level']}")
-"""
-
-"""
-    print ("Truy xuất toàn bộ khóa học:\n")
-    for index,course in enumerate (courses):
-        print (f"khoa hoc thu {index+1}")
-        print (f"ten khoa:{course['title']}")
-        print (f"ky nang:{course['target_skill']}")
-        print (f"cap do:{course['level']}")
-"""
-"""
-    print ("Truy xuất toàn bộ khóa học:\n")
-    for index,course in enumerate (courses):
-        print (f"khoa hoc thu {index+1}")
-        print (f"ten khoa:{course['title']}")
-        print (f"ky nang:{course['target_skill']}")
-        print (f"cap do:{course['level']}")
-"""
-"""
-    print ("Truy xuất toàn bộ khóa học:\n")
-    for index,course in enumerate (courses):
-        print (f"khoa hoc thu {index+1}")
-        print (f"ten khoa:{course['title']}")
-        print (f"ky nang:{course['target_skill']}")
-        print (f"cap do:{course['level']}")
-"""
-"""
     print ("Truy xuất toàn bộ khóa học:\n")
     for index,course in enumerate (courses):
         print (f"khoa hoc thu {index+1}")
