@@ -1,0 +1,142 @@
+[
+    {
+        "id": "F01",
+        "name": "Cam sành",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Trái cây có múi",
+        "taste": "Chua ngọt"
+    },
+    {
+        "id": "F02",
+        "name": "Bưởi da xanh",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Trái cây có múi",
+        "taste": "Ngọt thanh"
+    },
+    {
+        "id": "F03",
+        "name": "Xoài cát Hòa Lộc",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả hạch",
+        "taste": "Ngọt lịm"
+    },
+    {
+        "id": "F04",
+        "name": "Dâu tây",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả mọng",
+        "taste": "Chua nhẹ"
+    },
+    {
+        "id": "F05",
+        "name": "Việt quất",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả mọng",
+        "taste": "Ngọt"
+    },
+    {
+        "id": "F06",
+        "name": "Chuối già",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả mềm",
+        "taste": "Ngọt đậm"
+    },
+    {
+        "id": "F07",
+        "name": "Thanh long ruột đỏ",
+        "category": "Trái cây Sa mạc",
+        "subcategory": "Quả mọng nước",
+        "taste": "Ngọt nhẹ"
+    },
+    {
+        "id": "F08",
+        "name": "Mít Thái",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả lớn",
+        "taste": "Ngọt thơm"
+    },
+    {
+        "id": "F09",
+        "name": "Sầu riêng Ri6",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả gai",
+        "taste": "Béo ngọt"
+    },
+    {
+        "id": "F10",
+        "name": "Táo Fuji",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả giòn",
+        "taste": "Ngọt mát"
+    },
+    {
+        "id": "F11",
+        "name": "Lê Hàn Quốc",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả giòn",
+        "taste": "Ngọt thanh"
+    },
+    {
+        "id": "F12",
+        "name": "Nho xanh",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả chùm",
+        "taste": "Ngọt"
+    },
+    {
+        "id": "F13",
+        "name": "Kiwi vàng",
+        "category": "Trái cây Cận nhiệt",
+        "subcategory": "Quả mềm",
+        "taste": "Chua ngọt"
+    },
+    {
+        "id": "F14",
+        "name": "Lựu đỏ",
+        "category": "Trái cây Cận nhiệt",
+        "subcategory": "Quả nhiều hạt",
+        "taste": "Ngọt chua"
+    },
+    {
+        "id": "F15",
+        "name": "Dưa hấu",
+        "category": "Trái cây Mùa hè",
+        "subcategory": "Quả mọng lớn",
+        "taste": "Ngọt mát"
+    },
+    {
+        "id": "F16",
+        "name": "Dừa xiêm",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả có xơ",
+        "taste": "Ngọt dịu"
+    },
+    {
+        "id": "F17",
+        "name": "Mận hậu",
+        "category": "Trái cây Ôn đới",
+        "subcategory": "Quả hạch",
+        "taste": "Chua ngọt"
+    },
+    {
+        "id": "F18",
+        "name": "Chôm chôm",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả gai mềm",
+        "taste": "Ngọt"
+    },
+    {
+        "id": "F19",
+        "name": "Vải thiều",
+        "category": "Trái cây Cận nhiệt",
+        "subcategory": "Quả vỏ mỏng",
+        "taste": "Ngọt sắc"
+    },
+    {
+        "id": "F20",
+        "name": "Măng cụt",
+        "category": "Trái cây Nhiệt đới",
+        "subcategory": "Quả vỏ dày",
+        "taste": "Ngọt thanh nhieu "
+    }
+]
