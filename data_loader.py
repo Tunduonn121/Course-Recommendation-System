@@ -57,14 +57,4 @@ if __name__ == "__main__":
         # In ra cấu trúc cây thật đẹp bằng thư viện json
         print("\n--- CẤU TRÚC CÂY KHÓA HỌC (COURSE TREE) ---")
         print(json.dumps(my_tree, indent=4, ensure_ascii=False))
-"""
-    # Gọi hàm để đọc
-    courses = load_mock_courses(my_file)
-    print ("Truy xuất toàn bộ khóa học:\n")
-    for index,course in enumerate (courses):
-        print (f"khoa hoc thu {index+1}")
-        print (f"ten khoa:{course['title']}")
-        print (f"ky nang:{course['target_skill']}")
-        print (f"cap do:{course['level']}")
-        
-"""
+
