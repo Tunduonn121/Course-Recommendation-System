@@ -33,7 +33,7 @@ def compute_skill_gap(su_dict, sj_dict):
 # --- TEST CASE ---
 if __name__ == "__main__":
     # 1. Dữ liệu đầu vào
-    cv_skills = {"Java": 1,"C#":2,"SQLSever":1}
+    cv_skills = {"Java": 1}
     jd_skills = {"Java": 3, "Spring Boot": 2,"SQLSever":3}
     
     # 2. Chạy hàm

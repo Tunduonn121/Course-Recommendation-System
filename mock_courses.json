@@ -4,7 +4,7 @@
         "title": "Lập trình Java căn bản",
         "category": "Backend",
         "subcategory": "Java",
-        "target_skill": "Java",
+        "target_skills": ["Java", "OOP"],
         "level": 1,
         "description": "Khóa học dành cho người mới bắt đầu làm quen với cú pháp Java và lập trình hướng đối tượng (OOP)."
     },
@@ -13,7 +13,7 @@
         "title": "Lập trình Spring Boot nâng cao",
         "category": "Backend",
         "subcategory": "Java",
-        "target_skill": "Java",
+        "target_skills": ["Java", "Spring Boot", "Microservices", "API"],
         "level": 3,
         "description": "Khóa học đi sâu vào Spring Boot, Microservices và bảo mật API cho Senior Developer."
     },
@@ -22,7 +22,7 @@
         "title": "Nhập môn Python và Cấu trúc dữ liệu",
         "category": "Backend",
         "subcategory": "Python",
-        "target_skill": "Python",
+        "target_skills": ["Python", "Data Structures"],
         "level": 1,
         "description": "Nắm vững cú pháp Python, List, Dictionary và cách đọc ghi file."
     },
@@ -31,7 +31,7 @@
         "title": "Triển khai dự án với Docker",
         "category": "DevOps",
         "subcategory": "Containerization",
-        "target_skill": "Docker",
+        "target_skills": ["Docker", "Containerization"],
         "level": 2,
         "description": "Học cách đóng gói ứng dụng web vào container với Docker."
     },
@@ -40,7 +40,7 @@
         "title": "ASP.NET MVC 5 Căn bản",
         "category": "Backend",
         "subcategory": "C#",
-        "target_skill": "C#",
+        "target_skills": ["C#", "ASP.NET MVC"],
         "level": 1,
         "description": "Hiểu và áp dụng mô hình Model-View-Controller để xây dựng website quản lý cơ bản."
     },
@@ -49,7 +49,7 @@
         "title": "Thao tác Cơ sở dữ liệu với LINQ to SQL",
         "category": "Database",
         "subcategory": "ORM",
-        "target_skill": "LINQ",
+        "target_skills": ["LINQ", "SQL", "Entity Framework", "C#"],
         "level": 2,
         "description": "Tối ưu hóa các câu truy vấn và thao tác CRUD an toàn với Entity Framework và LINQ."
     },
@@ -58,7 +58,7 @@
         "title": "Thiết kế và Xây dựng RESTful API",
         "category": "Backend",
         "subcategory": "API",
-        "target_skill": "C#",
+        "target_skills": ["C#", "RESTful API", "JSON"],
         "level": 2,
         "description": "Học cách thiết kế API chuẩn RESTful, xử lý JSON và bảo mật endpoint."
     },
@@ -67,7 +67,7 @@
         "title": "Thuật toán và Cấu trúc dữ liệu với Python",
         "category": "Computer Science",
         "subcategory": "Algorithms",
-        "target_skill": "Python",
+        "target_skills": ["Python", "Algorithms", "Data Structures"],
         "level": 2,
         "description": "Đi sâu vào Tree, Stack, Queue và các thuật toán tìm kiếm (DFS, BFS) để tối ưu hóa bài toán."
     },
@@ -76,7 +76,7 @@
         "title": "Tích hợp LLM API vào Ứng dụng thực tế",
         "category": "AI",
         "subcategory": "Generative AI",
-        "target_skill": "LLM API",
+        "target_skills": ["LLM API", "Prompt Engineering", "Python"],
         "level": 3,
         "description": "Hướng dẫn gọi Google Gemini hoặc OpenAI API, thiết kế Prompt và xử lý dữ liệu trả về."
     },
@@ -85,7 +85,7 @@
         "title": "SQL Server cho Lập trình viên Backend",
         "category": "Database",
         "subcategory": "SQL Server",
-        "target_skill": "SQL",
+        "target_skills": ["SQL", "SQL Server", "Relational DB"],
         "level": 1,
         "description": "Thiết kế bảng, các mối quan hệ (Relational DB) và viết các câu lệnh truy vấn cốt lõi."
     },
@@ -94,7 +94,7 @@
         "title": "Tối ưu hoá hiệu suất SQL Server",
         "category": "Database",
         "subcategory": "SQL Server",
-        "target_skill": "SQL",
+        "target_skills": ["SQL", "SQL Server", "Performance Optimization"],
         "level": 3,
         "description": "Đánh chỉ mục (Indexing), phân tích Execution Plan và tối ưu query cho hệ thống lớn."
     },
@@ -103,7 +103,7 @@
         "title": "Quản lý mã nguồn với Git và GitHub",
         "category": "Tools",
         "subcategory": "Version Control",
-        "target_skill": "Git",
+        "target_skills": ["Git", "GitHub"],
         "level": 1,
         "description": "Sử dụng Git thuần thục từ các lệnh cơ bản đến quản lý nhánh (Branching) và giải quyết Conflict."
     },
@@ -112,7 +112,7 @@
         "title": "Phát triển Web với JavaScript và Fetch API",
         "category": "Frontend",
         "subcategory": "JavaScript",
-        "target_skill": "JavaScript",
+        "target_skills": ["JavaScript", "Frontend", "API"],
         "level": 2,
         "description": "Tạo giao diện Single Page Application (SPA), gọi API bất đồng bộ không cần tải lại trang."
     },
@@ -121,7 +121,7 @@
         "title": "Machine Learning nền tảng",
         "category": "AI",
         "subcategory": "Machine Learning",
-        "target_skill": "Machine Learning",
+        "target_skills": ["Machine Learning", "Python"],
         "level": 2,
         "description": "Hiểu các khái niệm cốt lõi về huấn luyện mô hình, phân loại dữ liệu và Heuristic."
     },
@@ -130,7 +130,7 @@
         "title": "Design Patterns trong Kỹ thuật phần mềm",
         "category": "Software Engineering",
         "subcategory": "Architecture",
-        "target_skill": "System Design",
+        "target_skills": ["System Design", "Design Patterns", "OOP"],
         "level": 3,
         "description": "Áp dụng các mẫu thiết kế (Singleton, Factory, Observer) để viết mã nguồn dễ bảo trì và mở rộng."
     },
@@ -139,7 +139,7 @@
         "title": "Tích hợp Thanh toán điện tử (VNPay)",
         "category": "Backend",
         "subcategory": "E-commerce",
-        "target_skill": "C#",
+        "target_skills": ["C#", "E-commerce", "Payment Gateway"],
         "level": 2,
         "description": "Thực hành xây dựng luồng giao dịch, mã hóa dữ liệu và xử lý callback từ cổng thanh toán."
     },
@@ -148,7 +148,7 @@
         "title": "Xử lý Ngôn ngữ Tự nhiên (NLP) cơ bản",
         "category": "AI",
         "subcategory": "NLP",
-        "target_skill": "Python",
+        "target_skills": ["Python", "NLP"],
         "level": 2,
         "description": "Kỹ thuật làm sạch văn bản, trích xuất từ khóa và nhận diện thực thể (NER) với Python."
     },
@@ -157,7 +157,7 @@
         "title": "Bảo mật ứng dụng Web (Web Security)",
         "category": "Cybersecurity",
         "subcategory": "Application Security",
-        "target_skill": "Security",
+        "target_skills": ["Security", "Web Security"],
         "level": 2,
         "description": "Phòng chống các lỗ hổng phổ biến như SQL Injection, XSS, và quản lý xác thực người dùng an toàn."
     },
@@ -166,7 +166,7 @@
         "title": "Kiểm thử tự động (Unit Testing) cho Backend",
         "category": "Quality Assurance",
         "subcategory": "Testing",
-        "target_skill": "Testing",
+        "target_skills": ["Testing", "Unit Testing", "Mocking"],
         "level": 2,
         "description": "Viết test case, sử dụng Mocking và đảm bảo độ bao phủ mã (Code Coverage) cho các luồng xử lý."
     },
@@ -175,7 +175,7 @@
         "title": "Xây dựng hệ thống Gợi ý (Recommendation System)",
         "category": "AI",
         "subcategory": "Data Science",
-        "target_skill": "Python",
+        "target_skills": ["Python", "Machine Learning", "Recommendation System"],
         "level": 3,
         "description": "Tìm hiểu các thuật toán gợi ý từ cơ bản (Collaborative Filtering) đến các phương pháp lai (Hybrid)."
     }
